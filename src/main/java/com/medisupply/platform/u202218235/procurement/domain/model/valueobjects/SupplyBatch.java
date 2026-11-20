@@ -1,5 +1,5 @@
-package com.medisupply.platform.u202218235.shared.domain.model.valueobjects;
-import com.medisupply.platform.u202218235.shared.domain.exceptions.ValidationException;
+package com.medisupply.platform.u202218235.procurement.domain.model.valueobjects;
+import com.medisupply.platform.u202218235.procurement.domain.exceptions.ValidationException;
 
 
 

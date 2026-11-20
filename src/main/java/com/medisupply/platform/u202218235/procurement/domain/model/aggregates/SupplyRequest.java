@@ -1,8 +1,8 @@
-package com.medisupply.platform.u202218235.shared.domain.model.aggregates;
+package com.medisupply.platform.u202218235.procurement.domain.model.aggregates;
 
 
-import com.medisupply.platform.u202218235.shared.domain.model.valueobjects.*;
-import com.medisupply.platform.u202218235.shared.domain.exceptions.ValidationException;
+import com.medisupply.platform.u202218235.procurement.domain.model.valueobjects.*;
+import com.medisupply.platform.u202218235.procurement.domain.exceptions.ValidationException;
 
 import java.time.Instant;
 

@@ -1,4 +1,4 @@
-package com.medisupply.platform.u202218235.shared.domain.repositories;
+package com.medisupply.platform.u202218235.procurement.domain.repositories;
 
 public interface  ICrudService<T, ID> {
     T save(T entity);

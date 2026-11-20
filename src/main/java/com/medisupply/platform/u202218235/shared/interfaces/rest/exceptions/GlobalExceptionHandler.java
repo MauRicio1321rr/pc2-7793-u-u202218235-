@@ -2,7 +2,7 @@ package com.medisupply.platform.u202218235.shared.interfaces.rest.exceptions;
 
 
 import com.medisupply.platform.u202218235.procurement.domain.exceptions.DuplicateRequestCodeException;
-import com.medisupply.platform.u202218235.shared.domain.exceptions.ValidationException;
+import com.medisupply.platform.u202218235.procurement.domain.exceptions.ValidationException;
 import com.medisupply.platform.u202218235.shared.interfaces.rest.resources.MessageResource;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
