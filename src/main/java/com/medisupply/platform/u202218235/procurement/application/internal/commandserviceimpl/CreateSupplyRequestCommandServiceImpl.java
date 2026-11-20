@@ -6,7 +6,6 @@ import com.medisupply.platform.u202218235.procurement.domain.exceptions.Duplicat
 import com.medisupply.platform.u202218235.procurement.domain.model.aggregates.SupplyRequest;
 import com.medisupply.platform.u202218235.procurement.domain.model.valueobjects.*;
 import com.medisupply.platform.u202218235.procurement.domain.repositories.ISupplyRequestRepository;
-import com.medisupply.platform.u202218235.shared.domain.exceptions.ValidationException;
 import com.medisupply.platform.u202218235.shared.domain.model.results.Result;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;

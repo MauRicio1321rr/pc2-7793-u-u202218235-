@@ -24,9 +24,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(ValidationException.class)
     public ResponseEntity<MessageResource> handleValidationException(ValidationException ex) {
         var localizedMessage = messageSource.getMessage(
-                ex.getErrorCode(),
                 null,
-                ex.getMessage(),
                 LocaleContextHolder.getLocale()
         );
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)

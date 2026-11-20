@@ -2,7 +2,6 @@ package com.medisupply.platform.u202218235.procurement.interfaces.rest.assembler
 
 import com.medisupply.platform.u202218235.procurement.application.commands.CreateSupplyRequestCommand;
 import com.medisupply.platform.u202218235.procurement.interfaces.rest.resources.CreateSupplyRequestResource;
-import com.medisupply.platform.u202218235.shared.domain.exceptions.ValidationException;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
